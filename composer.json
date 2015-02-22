@@ -1,0 +1,22 @@
+{
+    "name": "tomas-vodrazka/forms",
+    "type": "library",
+    "description": "Form utils for Nette Forms and Image processing",
+    "keywords": ["nette","crud"],
+    "homepage": "https://github.com/alanIg/Crud",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tomáš Vodrážka",
+            "email": "tomas.vodrazka@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+		"nette/nette": "~2.2.2"
+    },
+    "autoload": {
+		"classmap": ["src/"]
+	}
+}
